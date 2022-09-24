@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Default suite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)(failed)">
+    <classes>
+      <class name="textNG_Project_3_FlipCart.TestClass_2">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="checkHeadersLink"/>
+          <include name="tc1CheckTheHeadersLinks"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- textNG_Project_3_FlipCart.TestClass_2 -->
+      <class name="testNG_Project_2_Swiggy.TestClass_1">
+        <methods>
+          <include name="close"/>
+          <include name="CheckAvailability"/>
+          <include name="tc1CheckAvailability"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- testNG_Project_2_Swiggy.TestClass_1 -->
+      <class name="pom_1.TestNg">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="test13"/>
+          <include name="test22"/>
+        </methods>
+      </class> <!-- pom_1.TestNg -->
+      <class name="textNG_Project_4_SauceDemo.copy.copy.TestClass_1">
+        <methods>
+          <include name="closes"/>
+          <include name="launchBrowser"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="cleanPOMObject"/>
+          <include name="testLoginButton"/>
+        </methods>
+      </class> <!-- textNG_Project_4_SauceDemo.copy.copy.TestClass_1 -->
+      <class name="textNG_Project_4_SauceDemo.TestClass_1">
+        <methods>
+          <include name="close"/>
+          <include name="testLoginButton"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- textNG_Project_4_SauceDemo.TestClass_1 -->
+      <class name="annotations.IV_Groups">
+        <methods>
+          <include name="first"/>
+          <include name="second"/>
+          <include name="third"/>
+        </methods>
+      </class> <!-- annotations.IV_Groups -->
+      <class name="annotations.III_enabled">
+        <methods>
+          <include name="first"/>
+          <include name="second"/>
+        </methods>
+      </class> <!-- annotations.III_enabled -->
+      <class name="testNG_Project_2_Swiggy.TestClass_2">
+        <methods>
+          <include name="close"/>
+          <include name="tc1Checkout"/>
+          <include name="CheckCheckout"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- testNG_Project_2_Swiggy.TestClass_2 -->
+      <class name="textNG_Project_4_SauceDemo.copy.TestClass_4">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="launchBrowser"/>
+          <include name="beforeClass"/>
+          <include name="checkAddToCart"/>
+          <include name="cleanPOMObject"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- textNG_Project_4_SauceDemo.copy.TestClass_4 -->
+      <class name="textNG_Project_4_SauceDemo.copy.copy.TestClass_4">
+        <methods>
+          <include name="cleanPOMObject"/>
+          <include name="closes"/>
+          <include name="beforeMethod"/>
+          <include name="checkAddToCart"/>
+          <include name="launchBrowser"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- textNG_Project_4_SauceDemo.copy.copy.TestClass_4 -->
+      <class name="textNG_Project_4_SauceDemo.copy.TestClass_3">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="checkAddToCart"/>
+          <include name="cleanPOMObject"/>
+          <include name="launchBrowser"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- textNG_Project_4_SauceDemo.copy.TestClass_3 -->
+      <class name="assertions.Soft_Assert">
+        <methods>
+          <include name="III_softAssert"/>
+          <include name="II_softAssert"/>
+          <include name="I_softAssert"/>
+        </methods>
+      </class> <!-- assertions.Soft_Assert -->
+      <class name="suit_Learn.I_TC">
+        <methods>
+          <include name="afterTest"/>
+          <include name="second"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+          <include name="beforeSuit"/>
+          <include name="beforeClass"/>
+          <include name="beforeTest"/>
+          <include name="afterSuit"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- suit_Learn.I_TC -->
+      <class name="textNG_Project_4_SauceDemo.copy.TestClass_2">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="beforeClass"/>
+          <include name="cleanPOMObject"/>
+          <include name="beforeMethod"/>
+          <include name="checkAddToCart"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- textNG_Project_4_SauceDemo.copy.TestClass_2 -->
+      <class name="textNG_Project_4_SauceDemo.TestClass_3">
+        <methods>
+          <include name="close"/>
+          <include name="beforeMethod"/>
+          <include name="checkAddToCart"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- textNG_Project_4_SauceDemo.TestClass_3 -->
+      <class name="textNG_Project_4_SauceDemo.copy.TestClass_1">
+        <methods>
+          <include name="testLoginButton"/>
+          <include name="launchBrowser"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="close"/>
+          <include name="cleanPOMObject"/>
+        </methods>
+      </class> <!-- textNG_Project_4_SauceDemo.copy.TestClass_1 -->
+      <class name="suit_Learn.II_TC">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="second"/>
+          <include name="afterClass"/>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuit"/>
+          <include name="beforeTest"/>
+          <include name="AfterSuit"/>
+        </methods>
+      </class> <!-- suit_Learn.II_TC -->
+      <class name="testNG_Project_1_MMT.TestClass_2_HomeStays">
+        <methods>
+          <include name="close"/>
+          <include name="searchForHomeStays"/>
+          <include name="beforeClass"/>
+          <include name="tc1checkSearchForHomeStays"/>
+        </methods>
+      </class> <!-- testNG_Project_1_MMT.TestClass_2_HomeStays -->
+      <class name="textNG_Project_3_FlipCart.TestClass_1">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="tc1CheckTheaddToCart"/>
+          <include name="addToCart"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- textNG_Project_3_FlipCart.TestClass_1 -->
+      <class name="testNG_Project_1_MMT.TestClass_3_SearchButton">
+        <methods>
+          <include name="close"/>
+          <include name="tc1checkSearchButtonOpeation"/>
+          <include name="beforeClass"/>
+          <include name="clickOnSearchButton"/>
+        </methods>
+      </class> <!-- testNG_Project_1_MMT.TestClass_3_SearchButton -->
+      <class name="textNG_Project_4_SauceDemo.copy.copy.TestClass_2">
+        <methods>
+          <include name="cleanPOMObject"/>
+          <include name="launchBrowser"/>
+          <include name="closes"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="checkAddToCart"/>
+        </methods>
+      </class> <!-- textNG_Project_4_SauceDemo.copy.copy.TestClass_2 -->
+      <class name="annotations.V_InvocationCount">
+        <methods>
+          <include name="second"/>
+          <include name="third"/>
+          <include name="first"/>
+        </methods>
+      </class> <!-- annotations.V_InvocationCount -->
+      <class name="annotations.VI_TimeOut">
+        <methods>
+          <include name="second"/>
+          <include name="first"/>
+          <include name="third"/>
+        </methods>
+      </class> <!-- annotations.VI_TimeOut -->
+      <class name="textNG_Project_4_SauceDemo.copy.copy.TestClass_3">
+        <methods>
+          <include name="cleanPOMObject"/>
+          <include name="closes"/>
+          <include name="beforeMethod"/>
+          <include name="launchBrowser"/>
+          <include name="beforeClass"/>
+          <include name="checkAddToCart"/>
+        </methods>
+      </class> <!-- textNG_Project_4_SauceDemo.copy.copy.TestClass_3 -->
+      <class name="textNG_Project_4_SauceDemo.TestClass_2">
+        <methods>
+          <include name="close"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="checkAddToCart"/>
+        </methods>
+      </class> <!-- textNG_Project_4_SauceDemo.TestClass_2 -->
+      <class name="textNG_Project_4_SauceDemo.TestClass_4">
+        <methods>
+          <include name="close"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="checkAddToCart"/>
+        </methods>
+      </class> <!-- textNG_Project_4_SauceDemo.TestClass_4 -->
+      <class name="annotations.I_Priority">
+        <methods>
+          <include name="second"/>
+          <include name="third"/>
+          <include name="first"/>
+        </methods>
+      </class> <!-- annotations.I_Priority -->
+      <class name="com.akash.AppTest">
+        <methods>
+          <include name="testLogin2"/>
+          <include name="testLogin1"/>
+        </methods>
+      </class> <!-- com.akash.AppTest -->
+      <class name="textNG_Project_5_Screenshot.TestClass_1">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="beforeMethod"/>
+          <include name="closes"/>
+          <include name="testLoginButton"/>
+          <include name="beforeClass"/>
+          <include name="cleanPOMObject"/>
+        </methods>
+      </class> <!-- textNG_Project_5_Screenshot.TestClass_1 -->
+      <class name="assertions.Hard_Assert">
+        <methods>
+          <include name="hardAssert2"/>
+          <include name="hardAssert1"/>
+        </methods>
+      </class> <!-- assertions.Hard_Assert -->
+      <class name="testNG_Project_1_MMT.TestClass_1_AppliedFilters">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="tc1checkSearchButtonOpeation"/>
+          <include name="clickOnSearchButton"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- testNG_Project_1_MMT.TestClass_1_AppliedFilters -->
+      <class name="annotations.II_dependsOnMethods">
+        <methods>
+          <include name="first"/>
+          <include name="second"/>
+          <include name="third"/>
+        </methods>
+      </class> <!-- annotations.II_dependsOnMethods -->
+    </classes>
+  </test> <!-- Default test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Default suite]] -->

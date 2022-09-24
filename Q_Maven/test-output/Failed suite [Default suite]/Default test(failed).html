@@ -1,0 +1,2205 @@
+<html>
+<head>
+<title>TestNG:  Default test(failed)</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test(failed)</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/49</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Sep 20 11:06:45 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (800 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.TestClass_1.launchBrowser()'><b>launchBrowser</b><br>Test class: textNG_Project_4_SauceDemo.copy.TestClass_1</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace607207372", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace607207372'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>-1663652205</td>
+<td>textNG_Project_4_SauceDemo.copy.TestClass_1@5b8dfcc1</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.TestClass_4.launchBrowser()'><b>launchBrowser</b><br>Test class: textNG_Project_4_SauceDemo.copy.TestClass_4</td>
+<td></td>
+<td>-1663652205</td>
+<td>textNG_Project_4_SauceDemo.copy.TestClass_4@4efbca5a</td></tr>
+<tr>
+<td title='testNG_Project_1_MMT.TestClass_2_HomeStays.close()'><b>close</b><br>Test class: testNG_Project_1_MMT.TestClass_2_HomeStays</td>
+<td></td>
+<td>-1663652205</td>
+<td>testNG_Project_1_MMT.TestClass_2_HomeStays@3c19aaa5</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.copy.TestClass_4.cleanPOMObject()'><b>cleanPOMObject</b><br>Test class: textNG_Project_4_SauceDemo.copy.copy.TestClass_4</td>
+<td></td>
+<td>-1663652206</td>
+<td>textNG_Project_4_SauceDemo.copy.copy.TestClass_4@6f1de4c7</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.TestClass_4.cleanPOMObject()'><b>cleanPOMObject</b><br>Test class: textNG_Project_4_SauceDemo.copy.TestClass_4</td>
+<td></td>
+<td>-1663652205</td>
+<td>textNG_Project_4_SauceDemo.copy.TestClass_4@4efbca5a</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.TestClass_3.close()'><b>close</b><br>Test class: textNG_Project_4_SauceDemo.TestClass_3</td>
+<td></td>
+<td>-1663652205</td>
+<td>textNG_Project_4_SauceDemo.TestClass_3@f6efaab</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.copy.TestClass_1.beforeMethod()'><b>beforeMethod</b><br>Test class: textNG_Project_4_SauceDemo.copy.copy.TestClass_1</td>
+<td></td>
+<td>-1663652205</td>
+<td>textNG_Project_4_SauceDemo.copy.copy.TestClass_1@49e53c76</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.TestClass_4.close()'><b>close</b><br>Test class: textNG_Project_4_SauceDemo.copy.TestClass_4</td>
+<td></td>
+<td>-1663652206</td>
+<td>textNG_Project_4_SauceDemo.copy.TestClass_4@4efbca5a</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.TestClass_3.launchBrowser()'><b>launchBrowser</b><br>Test class: textNG_Project_4_SauceDemo.copy.TestClass_3</td>
+<td></td>
+<td>-1663652205</td>
+<td>textNG_Project_4_SauceDemo.copy.TestClass_3@6069db50</td></tr>
+<tr>
+<td title='suit_Learn.II_TC.afterClass()'><b>afterClass</b><br>Test class: suit_Learn.II_TC</td>
+<td></td>
+<td>-1663652205</td>
+<td>suit_Learn.II_TC@2a3b5b47</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.TestClass_3.beforeMethod()'><b>beforeMethod</b><br>Test class: textNG_Project_4_SauceDemo.copy.TestClass_3</td>
+<td></td>
+<td>-1663652205</td>
+<td>textNG_Project_4_SauceDemo.copy.TestClass_3@6069db50</td></tr>
+<tr>
+<td title='suit_Learn.I_TC.afterClass()'><b>afterClass</b><br>Test class: suit_Learn.I_TC</td>
+<td></td>
+<td>-1663652205</td>
+<td>suit_Learn.I_TC@74f0ea28</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.copy.TestClass_2.beforeClass()'><b>beforeClass</b><br>Test class: textNG_Project_4_SauceDemo.copy.copy.TestClass_2</td>
+<td></td>
+<td>-1663652205</td>
+<td>textNG_Project_4_SauceDemo.copy.copy.TestClass_2@67c27493</td></tr>
+<tr>
+<td title='textNG_Project_5_Screenshot.TestClass_1.closes()'><b>closes</b><br>Test class: textNG_Project_5_Screenshot.TestClass_1</td>
+<td></td>
+<td>-1663652206</td>
+<td>textNG_Project_5_Screenshot.TestClass_1@3349e9bb</td></tr>
+<tr>
+<td title='pom_1.TestNg.beforeMethod()'><b>beforeMethod</b><br>Test class: pom_1.TestNg</td>
+<td></td>
+<td>-1663652205</td>
+<td>pom_1.TestNg@409bf450</td></tr>
+<tr>
+<td title='suit_Learn.I_TC.afterTest()'><b>afterTest</b><br>Test class: suit_Learn.I_TC</td>
+<td></td>
+<td>-1663652206</td>
+<td>suit_Learn.I_TC@74f0ea28</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.TestClass_1.beforeClass()'><b>beforeClass</b><br>Test class: textNG_Project_4_SauceDemo.TestClass_1</td>
+<td></td>
+<td>-1663652205</td>
+<td>textNG_Project_4_SauceDemo.TestClass_1@9597028</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.TestClass_1.close()'><b>close</b><br>Test class: textNG_Project_4_SauceDemo.TestClass_1</td>
+<td></td>
+<td>-1663652205</td>
+<td>textNG_Project_4_SauceDemo.TestClass_1@9597028</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.copy.TestClass_1.launchBrowser()'><b>launchBrowser</b><br>Test class: textNG_Project_4_SauceDemo.copy.copy.TestClass_1</td>
+<td></td>
+<td>-1663652205</td>
+<td>textNG_Project_4_SauceDemo.copy.copy.TestClass_1@49e53c76</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.TestClass_1.beforeMethod()'><b>beforeMethod</b><br>Test class: textNG_Project_4_SauceDemo.copy.TestClass_1</td>
+<td></td>
+<td>-1663652205</td>
+<td>textNG_Project_4_SauceDemo.copy.TestClass_1@5b8dfcc1</td></tr>
+<tr>
+<td title='textNG_Project_5_Screenshot.TestClass_1.launchBrowser()'><b>launchBrowser</b><br>Test class: textNG_Project_5_Screenshot.TestClass_1</td>
+<td></td>
+<td>-1663652205</td>
+<td>textNG_Project_5_Screenshot.TestClass_1@3349e9bb</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.TestClass_4.beforeClass()'><b>beforeClass</b><br>Test class: textNG_Project_4_SauceDemo.copy.TestClass_4</td>
+<td></td>
+<td>-1663652205</td>
+<td>textNG_Project_4_SauceDemo.copy.TestClass_4@4efbca5a</td></tr>
+<tr>
+<td title='pom_1.TestNg.beforeClass()'><b>beforeClass</b><br>Test class: pom_1.TestNg</td>
+<td></td>
+<td>-1663652205</td>
+<td>pom_1.TestNg@409bf450</td></tr>
+<tr>
+<td title='testNG_Project_2_Swiggy.TestClass_1.CheckAvailability()'><b>CheckAvailability</b><br>Test class: testNG_Project_2_Swiggy.TestClass_1</td>
+<td></td>
+<td>-1663652205</td>
+<td>testNG_Project_2_Swiggy.TestClass_1@57a3af25</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.TestClass_1.beforeMethod()'><b>beforeMethod</b><br>Test class: textNG_Project_4_SauceDemo.TestClass_1</td>
+<td></td>
+<td>-1663652205</td>
+<td>textNG_Project_4_SauceDemo.TestClass_1@9597028</td></tr>
+<tr>
+<td title='testNG_Project_1_MMT.TestClass_2_HomeStays.beforeClass()'><b>beforeClass</b><br>Test class: testNG_Project_1_MMT.TestClass_2_HomeStays</td>
+<td></td>
+<td>-1663652205</td>
+<td>testNG_Project_1_MMT.TestClass_2_HomeStays@3c19aaa5</td></tr>
+<tr>
+<td title='textNG_Project_5_Screenshot.TestClass_1.beforeMethod()'><b>beforeMethod</b><br>Test class: textNG_Project_5_Screenshot.TestClass_1</td>
+<td></td>
+<td>-1663652205</td>
+<td>textNG_Project_5_Screenshot.TestClass_1@3349e9bb</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.copy.TestClass_1.beforeClass()'><b>beforeClass</b><br>Test class: textNG_Project_4_SauceDemo.copy.copy.TestClass_1</td>
+<td></td>
+<td>-1663652205</td>
+<td>textNG_Project_4_SauceDemo.copy.copy.TestClass_1@49e53c76</td></tr>
+<tr>
+<td title='textNG_Project_3_FlipCart.TestClass_1.addToCart()'><b>addToCart</b><br>Test class: textNG_Project_3_FlipCart.TestClass_1</td>
+<td></td>
+<td>-1663652205</td>
+<td>textNG_Project_3_FlipCart.TestClass_1@49139829</td></tr>
+<tr>
+<td title='testNG_Project_1_MMT.TestClass_3_SearchButton.clickOnSearchButton()'><b>clickOnSearchButton</b><br>Test class: testNG_Project_1_MMT.TestClass_3_SearchButton</td>
+<td></td>
+<td>-1663652205</td>
+<td>testNG_Project_1_MMT.TestClass_3_SearchButton@1a482e36</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.TestClass_2.beforeMethod()'><b>beforeMethod</b><br>Test class: textNG_Project_4_SauceDemo.TestClass_2</td>
+<td></td>
+<td>-1663652205</td>
+<td>textNG_Project_4_SauceDemo.TestClass_2@38d8f54a</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.TestClass_1.beforeClass()'><b>beforeClass</b><br>Test class: textNG_Project_4_SauceDemo.copy.TestClass_1</td>
+<td></td>
+<td>-1663652205</td>
+<td>textNG_Project_4_SauceDemo.copy.TestClass_1@5b8dfcc1</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.TestClass_3.beforeClass()'><b>beforeClass</b><br>Test class: textNG_Project_4_SauceDemo.copy.TestClass_3</td>
+<td></td>
+<td>-1663652205</td>
+<td>textNG_Project_4_SauceDemo.copy.TestClass_3@6069db50</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.TestClass_3.beforeMethod()'><b>beforeMethod</b><br>Test class: textNG_Project_4_SauceDemo.TestClass_3</td>
+<td></td>
+<td>-1663652205</td>
+<td>textNG_Project_4_SauceDemo.TestClass_3@f6efaab</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.TestClass_4.beforeMethod()'><b>beforeMethod</b><br>Test class: textNG_Project_4_SauceDemo.copy.TestClass_4</td>
+<td></td>
+<td>-1663652205</td>
+<td>textNG_Project_4_SauceDemo.copy.TestClass_4@4efbca5a</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.copy.TestClass_2.closes()'><b>closes</b><br>Test class: textNG_Project_4_SauceDemo.copy.copy.TestClass_2</td>
+<td></td>
+<td>-1663652206</td>
+<td>textNG_Project_4_SauceDemo.copy.copy.TestClass_2@67c27493</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.copy.TestClass_3.launchBrowser()'><b>launchBrowser</b><br>Test class: textNG_Project_4_SauceDemo.copy.copy.TestClass_3</td>
+<td></td>
+<td>-1663652205</td>
+<td>textNG_Project_4_SauceDemo.copy.copy.TestClass_3@72967906</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.copy.TestClass_3.cleanPOMObject()'><b>cleanPOMObject</b><br>Test class: textNG_Project_4_SauceDemo.copy.copy.TestClass_3</td>
+<td></td>
+<td>-1663652205</td>
+<td>textNG_Project_4_SauceDemo.copy.copy.TestClass_3@72967906</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.copy.TestClass_2.cleanPOMObject()'><b>cleanPOMObject</b><br>Test class: textNG_Project_4_SauceDemo.copy.copy.TestClass_2</td>
+<td></td>
+<td>-1663652205</td>
+<td>textNG_Project_4_SauceDemo.copy.copy.TestClass_2@67c27493</td></tr>
+<tr>
+<td title='textNG_Project_3_FlipCart.TestClass_1.close()'><b>close</b><br>Test class: textNG_Project_3_FlipCart.TestClass_1</td>
+<td></td>
+<td>-1663652205</td>
+<td>textNG_Project_3_FlipCart.TestClass_1@49139829</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.TestClass_4.beforeClass()'><b>beforeClass</b><br>Test class: textNG_Project_4_SauceDemo.TestClass_4</td>
+<td></td>
+<td>-1663652206</td>
+<td>textNG_Project_4_SauceDemo.TestClass_4@5c6648b0</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.TestClass_1.close()'><b>close</b><br>Test class: textNG_Project_4_SauceDemo.copy.TestClass_1</td>
+<td></td>
+<td>-1663652206</td>
+<td>textNG_Project_4_SauceDemo.copy.TestClass_1@5b8dfcc1</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.TestClass_2.close()'><b>close</b><br>Test class: textNG_Project_4_SauceDemo.copy.TestClass_2</td>
+<td></td>
+<td>-1663652206</td>
+<td>textNG_Project_4_SauceDemo.copy.TestClass_2@459e9125</td></tr>
+<tr>
+<td title='suit_Learn.II_TC.beforeMethod()'><b>beforeMethod</b><br>Test class: suit_Learn.II_TC</td>
+<td></td>
+<td>-1663652205</td>
+<td>suit_Learn.II_TC@2a3b5b47</td></tr>
+<tr>
+<td title='testNG_Project_2_Swiggy.TestClass_2.CheckCheckout()'><b>CheckCheckout</b><br>Test class: testNG_Project_2_Swiggy.TestClass_2</td>
+<td></td>
+<td>-1663652205</td>
+<td>testNG_Project_2_Swiggy.TestClass_2@77fbd92c</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.TestClass_2.beforeClass()'><b>beforeClass</b><br>Test class: textNG_Project_4_SauceDemo.copy.TestClass_2</td>
+<td></td>
+<td>-1663652206</td>
+<td>textNG_Project_4_SauceDemo.copy.TestClass_2@459e9125</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.copy.TestClass_2.beforeMethod()'><b>beforeMethod</b><br>Test class: textNG_Project_4_SauceDemo.copy.copy.TestClass_2</td>
+<td></td>
+<td>-1663652205</td>
+<td>textNG_Project_4_SauceDemo.copy.copy.TestClass_2@67c27493</td></tr>
+<tr>
+<td title='textNG_Project_3_FlipCart.TestClass_2.checkHeadersLink()'><b>checkHeadersLink</b><br>Test class: textNG_Project_3_FlipCart.TestClass_2</td>
+<td></td>
+<td>-1663652205</td>
+<td>textNG_Project_3_FlipCart.TestClass_2@223191a6</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.copy.TestClass_2.launchBrowser()'><b>launchBrowser</b><br>Test class: textNG_Project_4_SauceDemo.copy.copy.TestClass_2</td>
+<td></td>
+<td>-1663652205</td>
+<td>textNG_Project_4_SauceDemo.copy.copy.TestClass_2@67c27493</td></tr>
+<tr>
+<td title='testNG_Project_1_MMT.TestClass_1_AppliedFilters.clickOnSearchButton()'><b>clickOnSearchButton</b><br>Test class: testNG_Project_1_MMT.TestClass_1_AppliedFilters</td>
+<td></td>
+<td>-1663652205</td>
+<td>testNG_Project_1_MMT.TestClass_1_AppliedFilters@747ddf94</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.TestClass_4.close()'><b>close</b><br>Test class: textNG_Project_4_SauceDemo.TestClass_4</td>
+<td></td>
+<td>-1663652206</td>
+<td>textNG_Project_4_SauceDemo.TestClass_4@5c6648b0</td></tr>
+<tr>
+<td title='suit_Learn.II_TC.afterTest()'><b>afterTest</b><br>Test class: suit_Learn.II_TC</td>
+<td></td>
+<td>-1663652206</td>
+<td>suit_Learn.II_TC@2a3b5b47</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.TestClass_1.cleanPOMObject()'><b>cleanPOMObject</b><br>Test class: textNG_Project_4_SauceDemo.copy.TestClass_1</td>
+<td></td>
+<td>-1663652205</td>
+<td>textNG_Project_4_SauceDemo.copy.TestClass_1@5b8dfcc1</td></tr>
+<tr>
+<td title='textNG_Project_3_FlipCart.TestClass_1.beforeClass()'><b>beforeClass</b><br>Test class: textNG_Project_3_FlipCart.TestClass_1</td>
+<td></td>
+<td>-1663652205</td>
+<td>textNG_Project_3_FlipCart.TestClass_1@49139829</td></tr>
+<tr>
+<td title='testNG_Project_1_MMT.TestClass_3_SearchButton.close()'><b>close</b><br>Test class: testNG_Project_1_MMT.TestClass_3_SearchButton</td>
+<td></td>
+<td>-1663652205</td>
+<td>testNG_Project_1_MMT.TestClass_3_SearchButton@1a482e36</td></tr>
+<tr>
+<td title='suit_Learn.I_TC.beforeClass()'><b>beforeClass</b><br>Test class: suit_Learn.I_TC</td>
+<td></td>
+<td>-1663652205</td>
+<td>suit_Learn.I_TC@74f0ea28</td></tr>
+<tr>
+<td title='suit_Learn.II_TC.afterMethod()'><b>afterMethod</b><br>Test class: suit_Learn.II_TC</td>
+<td></td>
+<td>-1663652205</td>
+<td>suit_Learn.II_TC@2a3b5b47</td></tr>
+<tr>
+<td title='testNG_Project_1_MMT.TestClass_1_AppliedFilters.beforeClass()'><b>beforeClass</b><br>Test class: testNG_Project_1_MMT.TestClass_1_AppliedFilters</td>
+<td></td>
+<td>-1663652205</td>
+<td>testNG_Project_1_MMT.TestClass_1_AppliedFilters@747ddf94</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.copy.TestClass_1.closes()'><b>closes</b><br>Test class: textNG_Project_4_SauceDemo.copy.copy.TestClass_1</td>
+<td></td>
+<td>-1663652206</td>
+<td>textNG_Project_4_SauceDemo.copy.copy.TestClass_1@49e53c76</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.copy.TestClass_3.closes()'><b>closes</b><br>Test class: textNG_Project_4_SauceDemo.copy.copy.TestClass_3</td>
+<td></td>
+<td>-1663652206</td>
+<td>textNG_Project_4_SauceDemo.copy.copy.TestClass_3@72967906</td></tr>
+<tr>
+<td title='testNG_Project_1_MMT.TestClass_1_AppliedFilters.close()'><b>close</b><br>Test class: testNG_Project_1_MMT.TestClass_1_AppliedFilters</td>
+<td></td>
+<td>-1663652205</td>
+<td>testNG_Project_1_MMT.TestClass_1_AppliedFilters@747ddf94</td></tr>
+<tr>
+<td title='textNG_Project_3_FlipCart.TestClass_2.close()'><b>close</b><br>Test class: textNG_Project_3_FlipCart.TestClass_2</td>
+<td></td>
+<td>-1663652205</td>
+<td>textNG_Project_3_FlipCart.TestClass_2@223191a6</td></tr>
+<tr>
+<td title='pom_1.TestNg.afterClass()'><b>afterClass</b><br>Test class: pom_1.TestNg</td>
+<td></td>
+<td>-1663652205</td>
+<td>pom_1.TestNg@409bf450</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.copy.TestClass_4.launchBrowser()'><b>launchBrowser</b><br>Test class: textNG_Project_4_SauceDemo.copy.copy.TestClass_4</td>
+<td></td>
+<td>-1663652205</td>
+<td>textNG_Project_4_SauceDemo.copy.copy.TestClass_4@6f1de4c7</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.copy.TestClass_4.closes()'><b>closes</b><br>Test class: textNG_Project_4_SauceDemo.copy.copy.TestClass_4</td>
+<td></td>
+<td>-1663652206</td>
+<td>textNG_Project_4_SauceDemo.copy.copy.TestClass_4@6f1de4c7</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.TestClass_2.launchBrowser()'><b>launchBrowser</b><br>Test class: textNG_Project_4_SauceDemo.copy.TestClass_2</td>
+<td></td>
+<td>-1663652205</td>
+<td>textNG_Project_4_SauceDemo.copy.TestClass_2@459e9125</td></tr>
+<tr>
+<td title='pom_1.TestNg.afterMethod()'><b>afterMethod</b><br>Test class: pom_1.TestNg</td>
+<td></td>
+<td>-1663652205</td>
+<td>pom_1.TestNg@409bf450</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.TestClass_3.close()'><b>close</b><br>Test class: textNG_Project_4_SauceDemo.copy.TestClass_3</td>
+<td></td>
+<td>-1663652206</td>
+<td>textNG_Project_4_SauceDemo.copy.TestClass_3@6069db50</td></tr>
+<tr>
+<td title='testNG_Project_2_Swiggy.TestClass_1.close()'><b>close</b><br>Test class: testNG_Project_2_Swiggy.TestClass_1</td>
+<td></td>
+<td>-1663652205</td>
+<td>testNG_Project_2_Swiggy.TestClass_1@57a3af25</td></tr>
+<tr>
+<td title='suit_Learn.I_TC.afterMethod()'><b>afterMethod</b><br>Test class: suit_Learn.I_TC</td>
+<td></td>
+<td>-1663652205</td>
+<td>suit_Learn.I_TC@74f0ea28</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.TestClass_2.close()'><b>close</b><br>Test class: textNG_Project_4_SauceDemo.TestClass_2</td>
+<td></td>
+<td>-1663652205</td>
+<td>textNG_Project_4_SauceDemo.TestClass_2@38d8f54a</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.TestClass_3.cleanPOMObject()'><b>cleanPOMObject</b><br>Test class: textNG_Project_4_SauceDemo.copy.TestClass_3</td>
+<td></td>
+<td>-1663652205</td>
+<td>textNG_Project_4_SauceDemo.copy.TestClass_3@6069db50</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.TestClass_3.beforeClass()'><b>beforeClass</b><br>Test class: textNG_Project_4_SauceDemo.TestClass_3</td>
+<td></td>
+<td>-1663652205</td>
+<td>textNG_Project_4_SauceDemo.TestClass_3@f6efaab</td></tr>
+<tr>
+<td title='testNG_Project_1_MMT.TestClass_3_SearchButton.beforeClass()'><b>beforeClass</b><br>Test class: testNG_Project_1_MMT.TestClass_3_SearchButton</td>
+<td></td>
+<td>-1663652205</td>
+<td>testNG_Project_1_MMT.TestClass_3_SearchButton@1a482e36</td></tr>
+<tr>
+<td title='textNG_Project_5_Screenshot.TestClass_1.beforeClass()'><b>beforeClass</b><br>Test class: textNG_Project_5_Screenshot.TestClass_1</td>
+<td></td>
+<td>-1663652205</td>
+<td>textNG_Project_5_Screenshot.TestClass_1@3349e9bb</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.copy.TestClass_3.beforeClass()'><b>beforeClass</b><br>Test class: textNG_Project_4_SauceDemo.copy.copy.TestClass_3</td>
+<td></td>
+<td>-1663652205</td>
+<td>textNG_Project_4_SauceDemo.copy.copy.TestClass_3@72967906</td></tr>
+<tr>
+<td title='pom_1.TestNg.afterMethod()'><b>afterMethod</b><br>Test class: pom_1.TestNg</td>
+<td></td>
+<td>-1663652205</td>
+<td>pom_1.TestNg@409bf450</td></tr>
+<tr>
+<td title='testNG_Project_2_Swiggy.TestClass_2.beforeClass()'><b>beforeClass</b><br>Test class: testNG_Project_2_Swiggy.TestClass_2</td>
+<td></td>
+<td>-1663652205</td>
+<td>testNG_Project_2_Swiggy.TestClass_2@77fbd92c</td></tr>
+<tr>
+<td title='testNG_Project_2_Swiggy.TestClass_1.beforeClass()'><b>beforeClass</b><br>Test class: testNG_Project_2_Swiggy.TestClass_1</td>
+<td></td>
+<td>-1663652205</td>
+<td>testNG_Project_2_Swiggy.TestClass_1@57a3af25</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.copy.TestClass_3.beforeMethod()'><b>beforeMethod</b><br>Test class: textNG_Project_4_SauceDemo.copy.copy.TestClass_3</td>
+<td></td>
+<td>-1663652205</td>
+<td>textNG_Project_4_SauceDemo.copy.copy.TestClass_3@72967906</td></tr>
+<tr>
+<td title='pom_1.TestNg.beforeMethod()'><b>beforeMethod</b><br>Test class: pom_1.TestNg</td>
+<td></td>
+<td>-1663652205</td>
+<td>pom_1.TestNg@409bf450</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.TestClass_2.cleanPOMObject()'><b>cleanPOMObject</b><br>Test class: textNG_Project_4_SauceDemo.copy.TestClass_2</td>
+<td></td>
+<td>-1663652206</td>
+<td>textNG_Project_4_SauceDemo.copy.TestClass_2@459e9125</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.TestClass_2.beforeClass()'><b>beforeClass</b><br>Test class: textNG_Project_4_SauceDemo.TestClass_2</td>
+<td></td>
+<td>-1663652205</td>
+<td>textNG_Project_4_SauceDemo.TestClass_2@38d8f54a</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.TestClass_4.beforeMethod()'><b>beforeMethod</b><br>Test class: textNG_Project_4_SauceDemo.TestClass_4</td>
+<td></td>
+<td>-1663652206</td>
+<td>textNG_Project_4_SauceDemo.TestClass_4@5c6648b0</td></tr>
+<tr>
+<td title='testNG_Project_2_Swiggy.TestClass_2.close()'><b>close</b><br>Test class: testNG_Project_2_Swiggy.TestClass_2</td>
+<td></td>
+<td>-1663652205</td>
+<td>testNG_Project_2_Swiggy.TestClass_2@77fbd92c</td></tr>
+<tr>
+<td title='textNG_Project_5_Screenshot.TestClass_1.cleanPOMObject()'><b>cleanPOMObject</b><br>Test class: textNG_Project_5_Screenshot.TestClass_1</td>
+<td></td>
+<td>-1663652205</td>
+<td>textNG_Project_5_Screenshot.TestClass_1@3349e9bb</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.copy.TestClass_4.beforeClass()'><b>beforeClass</b><br>Test class: textNG_Project_4_SauceDemo.copy.copy.TestClass_4</td>
+<td></td>
+<td>-1663652206</td>
+<td>textNG_Project_4_SauceDemo.copy.copy.TestClass_4@6f1de4c7</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.copy.TestClass_4.beforeMethod()'><b>beforeMethod</b><br>Test class: textNG_Project_4_SauceDemo.copy.copy.TestClass_4</td>
+<td></td>
+<td>-1663652206</td>
+<td>textNG_Project_4_SauceDemo.copy.copy.TestClass_4@6f1de4c7</td></tr>
+<tr>
+<td title='suit_Learn.I_TC.beforeMethod()'><b>beforeMethod</b><br>Test class: suit_Learn.I_TC</td>
+<td></td>
+<td>-1663652205</td>
+<td>suit_Learn.I_TC@74f0ea28</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.copy.TestClass_1.cleanPOMObject()'><b>cleanPOMObject</b><br>Test class: textNG_Project_4_SauceDemo.copy.copy.TestClass_1</td>
+<td></td>
+<td>-1663652205</td>
+<td>textNG_Project_4_SauceDemo.copy.copy.TestClass_1@49e53c76</td></tr>
+<tr>
+<td title='suit_Learn.II_TC.beforeClass()'><b>beforeClass</b><br>Test class: suit_Learn.II_TC</td>
+<td></td>
+<td>-1663652205</td>
+<td>suit_Learn.II_TC@2a3b5b47</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.TestClass_2.beforeMethod()'><b>beforeMethod</b><br>Test class: textNG_Project_4_SauceDemo.copy.TestClass_2</td>
+<td></td>
+<td>-1663652206</td>
+<td>textNG_Project_4_SauceDemo.copy.TestClass_2@459e9125</td></tr>
+<tr>
+<td title='testNG_Project_1_MMT.TestClass_2_HomeStays.searchForHomeStays()'><b>searchForHomeStays</b><br>Test class: testNG_Project_1_MMT.TestClass_2_HomeStays</td>
+<td></td>
+<td>-1663652205</td>
+<td>testNG_Project_1_MMT.TestClass_2_HomeStays@3c19aaa5</td></tr>
+<tr>
+<td title='textNG_Project_3_FlipCart.TestClass_2.beforeClass()'><b>beforeClass</b><br>Test class: textNG_Project_3_FlipCart.TestClass_2</td>
+<td></td>
+<td>-1663652205</td>
+<td>textNG_Project_3_FlipCart.TestClass_2@223191a6</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='annotations.IV_Groups.first()'><b>first</b><br>Test class: annotations.IV_Groups</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace464676531", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace464676531'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>annotations.IV_Groups@1b7cc17c</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.TestClass_2.checkAddToCart()'><b>checkAddToCart</b><br>Test class: textNG_Project_4_SauceDemo.copy.TestClass_2</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1771667101", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1771667101'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>textNG_Project_4_SauceDemo.copy.TestClass_2@459e9125</td></tr>
+<tr>
+<td title='annotations.IV_Groups.second()'><b>second</b><br>Test class: annotations.IV_Groups</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace812446698", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace812446698'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>annotations.IV_Groups@1b7cc17c</td></tr>
+<tr>
+<td title='assertions.Soft_Assert.I_softAssert()'><b>I_softAssert</b><br>Test class: assertions.Soft_Assert</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1234250905", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1234250905'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>assertions.Soft_Assert@6302bbb1</td></tr>
+<tr>
+<td title='annotations.VI_TimeOut.second()'><b>second</b><br>Test class: annotations.VI_TimeOut</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace236840983", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace236840983'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>annotations.VI_TimeOut@59662a0b</td></tr>
+<tr>
+<td title='annotations.V_InvocationCount.second()'><b>second</b><br>Test class: annotations.V_InvocationCount</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1309238149", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1309238149'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>annotations.V_InvocationCount@351d00c0</td></tr>
+<tr>
+<td title='annotations.IV_Groups.third()'><b>third</b><br>Test class: annotations.IV_Groups</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace737077247", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace737077247'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>annotations.IV_Groups@1b7cc17c</td></tr>
+<tr>
+<td title='annotations.III_enabled.first()'><b>first</b><br>Test class: annotations.III_enabled</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace812586739", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace812586739'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>annotations.III_enabled@55b699ef</td></tr>
+<tr>
+<td title='assertions.Soft_Assert.III_softAssert()'><b>III_softAssert</b><br>Test class: assertions.Soft_Assert</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace769530879", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace769530879'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>assertions.Soft_Assert@6302bbb1</td></tr>
+<tr>
+<td title='annotations.VI_TimeOut.third()'><b>third</b><br>Test class: annotations.VI_TimeOut</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1376790324", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1376790324'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>annotations.VI_TimeOut@59662a0b</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.TestClass_4.checkAddToCart()'><b>checkAddToCart</b><br>Test class: textNG_Project_4_SauceDemo.copy.TestClass_4</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2003534796", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2003534796'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>textNG_Project_4_SauceDemo.copy.TestClass_4@4efbca5a</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.TestClass_1.testLoginButton()'><b>testLoginButton</b><br>Test class: textNG_Project_4_SauceDemo.TestClass_1</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace255334292", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace255334292'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>textNG_Project_4_SauceDemo.TestClass_1@9597028</td></tr>
+<tr>
+<td title='annotations.I_Priority.third()'><b>third</b><br>Test class: annotations.I_Priority</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace888655833", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace888655833'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>annotations.I_Priority@2f9f7dcf</td></tr>
+<tr>
+<td title='testNG_Project_2_Swiggy.TestClass_1.tc1CheckAvailability()'><b>tc1CheckAvailability</b><br>Test class: testNG_Project_2_Swiggy.TestClass_1</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace57497692", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace57497692'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testNG_Project_2_Swiggy.TestClass_1@57a3af25</td></tr>
+<tr>
+<td title='testNG_Project_1_MMT.TestClass_3_SearchButton.tc1checkSearchButtonOpeation()'><b>tc1checkSearchButtonOpeation</b><br>Test class: testNG_Project_1_MMT.TestClass_3_SearchButton</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace336371513", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace336371513'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testNG_Project_1_MMT.TestClass_3_SearchButton@1a482e36</td></tr>
+<tr>
+<td title='annotations.V_InvocationCount.third()'><b>third</b><br>Test class: annotations.V_InvocationCount</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1687940142", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1687940142'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>annotations.V_InvocationCount@351d00c0</td></tr>
+<tr>
+<td title='com.akash.AppTest.testLogin1()'><b>testLogin1</b><br>Test class: com.akash.AppTest</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1306834002", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1306834002'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.akash.AppTest@7cc0cdad</td></tr>
+<tr>
+<td title='com.akash.AppTest.testLogin2()'><b>testLogin2</b><br>Test class: com.akash.AppTest</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1354083458", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1354083458'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.akash.AppTest@7cc0cdad</td></tr>
+<tr>
+<td title='annotations.III_enabled.second()'><b>second</b><br>Test class: annotations.III_enabled</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1881901842", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1881901842'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>annotations.III_enabled@55b699ef</td></tr>
+<tr>
+<td title='pom_1.TestNg.test13()'><b>test13</b><br>Test class: pom_1.TestNg</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace199449817", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace199449817'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>pom_1.TestNg@409bf450</td></tr>
+<tr>
+<td title='annotations.VI_TimeOut.first()'><b>first</b><br>Test class: annotations.VI_TimeOut</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1496949625", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1496949625'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>annotations.VI_TimeOut@59662a0b</td></tr>
+<tr>
+<td title='assertions.Hard_Assert.hardAssert1()'><b>hardAssert1</b><br>Test class: assertions.Hard_Assert</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace929383713", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace929383713'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>assertions.Hard_Assert@128d2484</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.copy.TestClass_2.checkAddToCart()'><b>checkAddToCart</b><br>Test class: textNG_Project_4_SauceDemo.copy.copy.TestClass_2</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace225344427", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace225344427'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>textNG_Project_4_SauceDemo.copy.copy.TestClass_2@67c27493</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.TestClass_3.checkAddToCart()'><b>checkAddToCart</b><br>Test class: textNG_Project_4_SauceDemo.TestClass_3</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1776409896", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1776409896'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>textNG_Project_4_SauceDemo.TestClass_3@f6efaab</td></tr>
+<tr>
+<td title='pom_1.TestNg.test22()'><b>test22</b><br>Test class: pom_1.TestNg</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace171802996", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace171802996'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>pom_1.TestNg@409bf450</td></tr>
+<tr>
+<td title='textNG_Project_5_Screenshot.TestClass_1.testLoginButton()'><b>testLoginButton</b><br>Test class: textNG_Project_5_Screenshot.TestClass_1</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1402433372", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1402433372'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>textNG_Project_5_Screenshot.TestClass_1@3349e9bb</td></tr>
+<tr>
+<td title='suit_Learn.I_TC.second()'><b>second</b><br>Test class: suit_Learn.I_TC</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace752001567", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace752001567'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>suit_Learn.I_TC@74f0ea28</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.copy.TestClass_1.testLoginButton()'><b>testLoginButton</b><br>Test class: textNG_Project_4_SauceDemo.copy.copy.TestClass_1</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace11939193", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace11939193'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>textNG_Project_4_SauceDemo.copy.copy.TestClass_1@49e53c76</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.copy.TestClass_3.checkAddToCart()'><b>checkAddToCart</b><br>Test class: textNG_Project_4_SauceDemo.copy.copy.TestClass_3</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace843512726", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace843512726'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>textNG_Project_4_SauceDemo.copy.copy.TestClass_3@72967906</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.TestClass_2.checkAddToCart()'><b>checkAddToCart</b><br>Test class: textNG_Project_4_SauceDemo.TestClass_2</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace6444850", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace6444850'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>textNG_Project_4_SauceDemo.TestClass_2@38d8f54a</td></tr>
+<tr>
+<td title='testNG_Project_1_MMT.TestClass_1_AppliedFilters.tc1checkSearchButtonOpeation()'><b>tc1checkSearchButtonOpeation</b><br>Test class: testNG_Project_1_MMT.TestClass_1_AppliedFilters</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace879583678", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace879583678'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testNG_Project_1_MMT.TestClass_1_AppliedFilters@747ddf94</td></tr>
+<tr>
+<td title='annotations.I_Priority.first()'><b>first</b><br>Test class: annotations.I_Priority</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace980138431", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace980138431'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>annotations.I_Priority@2f9f7dcf</td></tr>
+<tr>
+<td title='assertions.Soft_Assert.II_softAssert()'><b>II_softAssert</b><br>Test class: assertions.Soft_Assert</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace16868310", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace16868310'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>assertions.Soft_Assert@6302bbb1</td></tr>
+<tr>
+<td title='annotations.V_InvocationCount.first()'><b>first</b><br>Test class: annotations.V_InvocationCount</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace370370379", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace370370379'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>annotations.V_InvocationCount@351d00c0</td></tr>
+<tr>
+<td title='textNG_Project_3_FlipCart.TestClass_2.tc1CheckTheHeadersLinks()'><b>tc1CheckTheHeadersLinks</b><br>Test class: textNG_Project_3_FlipCart.TestClass_2</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace532087022", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace532087022'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>textNG_Project_3_FlipCart.TestClass_2@223191a6</td></tr>
+<tr>
+<td title='annotations.II_dependsOnMethods.second()'><b>second</b><br>Test class: annotations.II_dependsOnMethods</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1604002113", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1604002113'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>annotations.II_dependsOnMethods@2a4fb17b</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.TestClass_3.checkAddToCart()'><b>checkAddToCart</b><br>Test class: textNG_Project_4_SauceDemo.copy.TestClass_3</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace623247230", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace623247230'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>textNG_Project_4_SauceDemo.copy.TestClass_3@6069db50</td></tr>
+<tr>
+<td title='annotations.I_Priority.second()'><b>second</b><br>Test class: annotations.I_Priority</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace278240974", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace278240974'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>annotations.I_Priority@2f9f7dcf</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.TestClass_1.testLoginButton()'><b>testLoginButton</b><br>Test class: textNG_Project_4_SauceDemo.copy.TestClass_1</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1239183618", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1239183618'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>textNG_Project_4_SauceDemo.copy.TestClass_1@5b8dfcc1</td></tr>
+<tr>
+<td title='textNG_Project_3_FlipCart.TestClass_1.tc1CheckTheaddToCart()'><b>tc1CheckTheaddToCart</b><br>Test class: textNG_Project_3_FlipCart.TestClass_1</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace137460818", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace137460818'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>textNG_Project_3_FlipCart.TestClass_1@49139829</td></tr>
+<tr>
+<td title='annotations.V_InvocationCount.second()'><b>second</b><br>Test class: annotations.V_InvocationCount</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace671046933", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace671046933'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>annotations.V_InvocationCount@351d00c0</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.TestClass_4.checkAddToCart()'><b>checkAddToCart</b><br>Test class: textNG_Project_4_SauceDemo.TestClass_4</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace552936351", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace552936351'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>textNG_Project_4_SauceDemo.TestClass_4@5c6648b0</td></tr>
+<tr>
+<td title='annotations.II_dependsOnMethods.first()'><b>first</b><br>Test class: annotations.II_dependsOnMethods</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1427040229", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1427040229'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>annotations.II_dependsOnMethods@2a4fb17b</td></tr>
+<tr>
+<td title='testNG_Project_2_Swiggy.TestClass_2.tc1Checkout()'><b>tc1Checkout</b><br>Test class: testNG_Project_2_Swiggy.TestClass_2</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace330382173", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace330382173'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testNG_Project_2_Swiggy.TestClass_2@77fbd92c</td></tr>
+<tr>
+<td title='annotations.II_dependsOnMethods.third()'><b>third</b><br>Test class: annotations.II_dependsOnMethods</td>
+<td><div><pre>java.lang.Throwable: Method II_dependsOnMethods.third()[pri:3, instance:annotations.II_dependsOnMethods@2a4fb17b] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1353530305", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1353530305'><pre>java.lang.Throwable: Method II_dependsOnMethods.third()[pri:3, instance:annotations.II_dependsOnMethods@2a4fb17b] depends on not successfully finished methods
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>annotations.II_dependsOnMethods@2a4fb17b</td></tr>
+<tr>
+<td title='assertions.Hard_Assert.hardAssert2()'><b>hardAssert2</b><br>Test class: assertions.Hard_Assert</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace363509958", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace363509958'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>assertions.Hard_Assert@128d2484</td></tr>
+<tr>
+<td title='textNG_Project_4_SauceDemo.copy.copy.TestClass_4.checkAddToCart()'><b>checkAddToCart</b><br>Test class: textNG_Project_4_SauceDemo.copy.copy.TestClass_4</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace802243390", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace802243390'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>textNG_Project_4_SauceDemo.copy.copy.TestClass_4@6f1de4c7</td></tr>
+<tr>
+<td title='suit_Learn.II_TC.second()'><b>second</b><br>Test class: suit_Learn.II_TC</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace170144208", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace170144208'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>suit_Learn.II_TC@2a3b5b47</td></tr>
+<tr>
+<td title='testNG_Project_1_MMT.TestClass_2_HomeStays.tc1checkSearchForHomeStays()'><b>tc1checkSearchForHomeStays</b><br>Test class: testNG_Project_1_MMT.TestClass_2_HomeStays</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1728579441", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1728579441'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\eclipse-workspace\Q_Maven\test-output\testng-failed.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testNG_Project_1_MMT.TestClass_2_HomeStays@3c19aaa5</td></tr>
+</table><p>
+</body>
+</html>
